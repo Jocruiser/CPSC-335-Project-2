@@ -1,0 +1,18 @@
+
+
+def target_cities(source_arrayofcities, target_arrayofcities):
+    loop through source_arrayofcities
+        loop through target_arrayofcities
+                if length of source - index < length of target then continue
+                take a substring of source with the size of target city
+                
+                if the substring equals to target city
+                    add the city to output array 
+                    add index to output_order array
+                   
+                   remove found city from target_array of cities
+
+     return source_arrayofcities and target_arrayof cities
+
+
+T = O(n^2)
