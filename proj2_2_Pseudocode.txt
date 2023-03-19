@@ -1,0 +1,21 @@
+encode(string myStr)
+    if myStr length is 0 print error message and return
+    if mystr length is 1 simply print string
+
+    for every element in myStr
+    	currentletter = letter
+	
+	if currentletter is not equal to previous letter
+		if count is not 1
+			append count onto result
+		append previous letter onto result
+		reset count to 0
+
+	previousletter = current letter
+	increment count
+
+
+    if count is not 1
+		append count onto result
+    append previous letter onto result
+    print results
