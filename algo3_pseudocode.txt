@@ -1,0 +1,28 @@
+
+
+def merge_lists(input_list):
+    if the length of the input_list is zero then return
+
+    return = []
+
+    while length of input zero is not zero:
+
+        index = 0 
+        array = 0
+
+        smallest_element = the first lement of the first inner list
+
+        for inner_list in input_list:
+            if smallest_element is greater than the first element of inner_list:
+                store the index of the array that contains the smallest element
+                store the first element of inner_list in smallest_element
+            index = index + 1
+
+        append smallest_element to result
+
+        delete the new smallest_element from input_list
+
+        if empty list is in input_list:
+            remove the empty list from the input_list
+    
+    return result 
