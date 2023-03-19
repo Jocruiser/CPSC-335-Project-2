@@ -1,3 +1,5 @@
+#CPSC 335 - Project 2 - Algorithm 1
+
 def target_cities(source_arrayofcities, target_arrayofcities):
     source = source_arrayofcities[0]
     output_order = []
