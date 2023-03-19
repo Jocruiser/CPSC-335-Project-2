@@ -1,3 +1,5 @@
+#CPSC 335 - Project 2 - Algorithm 3
+
 def mergeLists(lst):
     if(len(lst)==0):
         print("Provided list was empty!")
