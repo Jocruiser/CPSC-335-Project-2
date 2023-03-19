@@ -1,0 +1,16 @@
+#CPSC-335-Project-2
+Algorithm 1: Target Terms or Substrings
+Group Members:
+Andres Gallego - andresgallego@csu.fullerton.edu
+Joanna Cruz - joannacruz@csu.fullerton.edu
+Strauss Diebold - strauss.diebold@csu.fullerton.edu
+
+Problem was implemented using Python
+
+The array included starting indices of the target source in array one. If the length of the source subtracted from the index is less than 
+the length of the target word then it is continued. The source index of the target length is assigned to a substring. If the target is equal to the substring
+then the output order is appended to the index and the output array is appended to the target. Index is then incremeneted by 1. The output order and output
+array are then returned to the user. 
+In the main function the file in2a.txt is opened as a read in file and is read line by line. 
+While it is on the line the split method will split the string for every quotation (") and the strings are stored at odd index; this occurs for both the 
+source string and target string. The result is then printed and the file is closed.
