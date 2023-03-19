@@ -1,0 +1,12 @@
+#CPSC-335-Project-2
+Algorithm 2: Run Encoding Problem
+Group Members:
+Andres Gallego - andresgallego@csu.fullerton.edu
+Joanna Cruz - joannacruz@csu.fullerton.edu
+Strauss Diebold - strauss.diebold@csu.fullerton.edu
+
+Problem was implemented using Python
+
+Run-length encoding replaces all of the same characters with a single copy of the character and a count of how many times it is copied.
+For loop runs through every letter within the string and refreshes the current letter. The current letter is then compared to the previous letter until there is a
+discrepancy. Count is ignored until it reaches a value of chracters greater than 1. If the count is greater than 1 then the count is appended to the result. The result is then appended to the previous letter and the counter is resetted for the next series of encodes. The current letter is then assigned to the previous letter. In the last if statement the comparison is done once more, otherwise the letter or chain is cut off and the result is printed to the user.

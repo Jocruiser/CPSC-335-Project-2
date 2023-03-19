@@ -1,0 +1,12 @@
+#CPSC-335-Project-2
+Algorithm 3: Merging Techniques
+Group Members:
+Andres Gallego - andresgallego@csu.fullerton.edu
+Joanna Cruz - joannacruz@csu.fullerton.edu
+Strauss Diebold - strauss.diebold@csu.fullerton.edu
+
+Problem was implemented using Python
+
+Result list is initialized as an empty list. While the input list is not empty then it continues to iterate.
+The first element of the first inner list is assigned to the smallest element. A For loop is created to loop through the first element of the inner list to find the smallest element. The array of the smallest element is stored in the index and the smallest element is stored in the inner list. The smallest element is then appended to the result and the element from the original input list is deleted. If an empty array is found in the input list then it is deleted as well as all elements in the inner list. In the main function the file in2c.txt is opened. Lines are assigned to the array strings and calls function merge_lists.
+
