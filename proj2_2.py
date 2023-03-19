@@ -1,3 +1,5 @@
+#CPSC 335 - Project 2 - Algorithm 2
+
 def encode(myStr:str):
     # edge cases in case user enters an empty or 1 letter string
     if(len(myStr) == 0):
