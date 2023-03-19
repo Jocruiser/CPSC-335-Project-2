@@ -41,7 +41,7 @@ def encode(myStr:str):
 def main():
     encode("heloooooooo there")
     encode("choosemeeky and tuition-free")
-    encode("aaaa")
+    encode("ddd")
     encode("")
     encode("e")
     
