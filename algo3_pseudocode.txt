@@ -16,7 +16,7 @@ def merge_lists(input_list):
             if smallest_element is greater than the first element of inner_list:
                 store the index of the array that contains the smallest element
                 store the first element of inner_list in smallest_element
-            index = index + 1
+            increment index
 
         append smallest_element to result
 
